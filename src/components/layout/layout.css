@@ -1,0 +1,12 @@
+.layout1{
+    /* display: grid;
+    grid-template-columns: 20% 80%; */
+    /* display: flex;
+   width:100%; */
+  
+  }
+  .layout2{
+     display: grid;
+    grid-template-columns: 20% 80%;
+    height: 100vh;
+  }

@@ -1,0 +1,37 @@
+.headerTop{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.overview {
+   margin:0;
+    padding: 30px  20px;
+    display: flex;
+    font: normal normal 600 28px/40px Source Sans Pro;
+    color: #43425D;
+}
+.overview p{
+    margin:0;
+}
+.addfunds{
+    padding: 30px  20px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+}
+.addfunds button{
+background: #6763e3 0% 0% no-repeat padding-box;
+border-radius: 6px ;
+border:transparent;
+color:white;
+padding:13px 15px;
+
+}
+.icon{
+    margin-left:7px;
+   font-size: 10px;
+    background-color: #5955d0;
+    padding:5px;
+    border-radius: 100%;
+   
+}

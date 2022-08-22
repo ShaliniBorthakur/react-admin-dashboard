@@ -1,0 +1,64 @@
+.navbarcontainer{
+    display: flex;
+    flex-direction: row;
+    column-gap: 1rem;
+    padding: 20px 30px;
+    box-shadow: 0px 2px 6px #0000000A;
+    background:white;
+    height: 32px;
+    
+}
+
+.searchBar{
+    flex:8;
+}
+.hamburger:hover{
+cursor: pointer;
+}
+
+.dropdown-content{
+    top: 72px;
+    right:25px;
+    position:absolute;
+    display: none;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 100;
+    padding:1rem;
+    box-shadow: 0px 2px 6px #0000000A;
+    
+}
+.profileDropdown:hover .dropdown-content{
+    display: block;
+    
+}
+
+.menuList{
+   display: flex;
+   flex-direction: column;
+    font: normal normal normal 16px/20px Source Sans Pro;
+    letter-spacing: 0px;
+    color: black;
+    
+}
+.profileImg{
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 25px;
+}
+.profileImg1 {
+    border-radius: 50%;
+    box-sizing: border-box;
+    width: 46px;
+}
+
+.listItems{
+    padding:10px
+}
+.usersNoti{
+    margin-top: 30px;
+    display: grid;
+  
+    grid-template-columns:auto 50% 30%;
+    row-gap: 30px;
+}
